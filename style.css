@@ -15,26 +15,78 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
+    
+    background-image:linear-gradient(rgb(8, 2, 42),rgb(10, 10, 111)) ;
 }
 .main{
     background-color: white;
-    padding: 35px;
+    padding: 45px;
+    height:430px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 15px 5px rgba(2, 2, 48, 0.379);
     
+}
+.main-h{
+    color:rgb(2, 87, 2);
 }
 .main-in{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:15px;
+    gap:25px;
 }
 .ui{
-    border: 2px solid purple;
-    height:30px;
-    width:150px;
+    border: 5px solid rgb(5, 2, 33);
+    box-shadow: 1px 2px 15px 5px rgba(3, 3, 111, 0.584) inset;
+    background-color: rgba(9, 83, 187, 0.682);
+    height:100px;
+    width:300px;
+    padding: 15px;
+    margin-top: 20px;;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ui-in{
+    color:white;
+    font-size: 20px;
+}
+.userInput,.compInput{
+    color:rgb(245, 192, 2);
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+  
+    gap:10px;
+
+   
 }
 .btn-1,.btn-2,.btn-3{
-    background-color: black;
-    padding: 15px;
-    
+    background-color:rgb(1, 41, 1);
+    padding: 20px;
+    font-size:40px;
+    border:none;
+    cursor: pointer;
+    box-shadow:1px 1px 15px 5px rgba(28, 27, 27, 0.434);
+border-radius:50%;
+
+}
+
+@media (max-width:600px){
+.main{
+    height:400px;
+    width:350px;
+  
+}
+.main-h{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
 }
